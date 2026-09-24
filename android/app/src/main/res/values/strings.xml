@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="title_activity_main">Tic Tac Toe</string>
+    <string name="package_name">com.tictactoe.mentorworld</string>
+    <string name="custom_url_scheme">com.tictactoe.mentorworld</string>
+
+    <!--
+      Real AdMob App ID from the developer's AdMob console. Matching ad unit
+      IDs (banner/interstitial/rewarded) live in src/lib/ads.ts.
+    -->
+    <string name="admob_app_id">ca-app-pub-5745424554460135~4963511006</string>
+</resources>

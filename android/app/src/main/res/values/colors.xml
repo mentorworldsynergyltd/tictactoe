@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors, matching the color-primary / color-secondary tokens in src/index.css -->
+    <color name="colorPrimary">#6C63FF</color>
+    <color name="colorPrimaryDark">#4A42C8</color>
+    <color name="colorAccent">#0891A8</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  LAN multiplayer talks plain ws:// (not wss://) to whatever IP is on the
+  local network, which Android blocks by default from API 28+ ("cleartext
+  traffic"). This app never talks to the open internet for gameplay — every
+  connection stays on the LAN — so cleartext is allowed everywhere rather
+  than pinned to specific hosts (the host's IP isn't known ahead of time;
+  it's whatever the joining player types in, or whatever this phone's own
+  Wi-Fi IP happens to be when it's the one hosting).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
